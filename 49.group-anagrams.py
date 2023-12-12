@@ -16,4 +16,3 @@ class Solution:
             letterWord[tuple(sorted(word))].append(word)
         return list(letterWord.values())
 # @lc code=end
-
